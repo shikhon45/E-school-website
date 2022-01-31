@@ -1,0 +1,332 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*******************************************************/
+		/*   header code start  */
+/*******************************************************/
+
+.header{
+	width: 100%;
+	background: #F0FFF0;
+	height: 100vh;
+}
+.main-menu{
+	width: 100%;
+}
+.main-menu .logo{
+	width: 160px;
+}
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .nav-link.active{
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.main-menu .navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-size: 14px;
+  margin: 0px 0px 0px 25px;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #000;
+	font-weight: 600;
+}
+.main-menu .btn-success {
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 35px;
+  margin: 0px 0px 0px 15px;
+  background: #21B573;
+  color:  #fff;
+  border: 1px solid #21B573;
+;
+}
+.main-menu .btn-success:hover, .main-menu .btn-success:focus{
+	background: transparent;
+  	color: #21B573;
+    border: 1px solid #21B573;
+}
+
+/*******************************************************/
+		/*   header code end  */
+/*******************************************************/
+
+		
+/*******************************************************/
+		/*   banner code start  */
+/*******************************************************/
+
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner h5{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #FD511A;
+}
+.banner h1{
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 60px;
+	color: #000000;;
+	margin: 0px 0px 22px;
+}
+.banner span{
+	color: #21B573;
+	
+}
+.banner p{
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #000;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin: -20px 0px 0px
+}
+.banner .btn-success {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 35px;
+  margin: 30px 0px;
+  background: #21B573;
+  color:  #fff;
+  border: 1px solid #21B573;
+;
+}
+.banner .btn-success:hover, .main-menu .btn-success:focus{
+	 background: transparent;
+  	color: #21B573;
+    border: 1px solid #21B573;
+}
+/*******************************************************/
+		/*   banner code end  */
+/*******************************************************/
+
+
+/*******************************************************/
+		/*   feature code start  */
+/*******************************************************/
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-feature{
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+	background: #F8FFFB;
+}
+.inner-feature img{
+	width: 78px;
+	height: 88px;	
+	margin: 0px 0px 15px;
+}
+.inner-feature h4 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #413960;
+	margin: 0px 0px;
+}
+.inner-feature p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #585859;
+	margin: 0px 0px;
+}
+.inner-feature:hover, .inner-feature:focus{
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+/*******************************************************/
+		/*   feature code end  */
+/*******************************************************/
+
+
+/*******************************************************/
+		/*   courses code end  */
+/*******************************************************/
+
+.courses{
+	width: 100%;
+	padding: 80px 0px;
+}
+.courses h2{
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 60px;
+	color: #000000;;
+	text-align: center;
+	margin: 0px 0px 60px;
+}
+.courses .card{
+  width: 100%;
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  border: 0px;
+}
+.courses .card .card-body {
+  padding: 15px 0px;
+}
+.courses .card .card-body h5{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	color: #413960;
+	margin: 0px;
+}
+.courses .card .card-body p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #585859;
+	margin: 0px 0px 15px;
+}
+.courses .card .card-body .btn-success {
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 35px;
+  margin: 10px 0px 30px;
+  background: #21B573;
+  color:  #fff;
+  border: 1px solid #21B573;
+}
+.courses .card .card-body .btn-success:hover, .courses .card .card-body .btn-success:focus{
+	  background: transparent;
+  	color: #21B573;
+    border: 1px solid #21B573;
+}
+.courses .card .card-body .desg{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 20px 0px -10px;
+}
+.courses .card .card-body .cl1{
+	width: 25px;
+	margin: -5px 0px 0px;
+}
+.courses .card .card-body .peo{
+	width: 25px;
+	margin: -5px 0px 0px;
+}
+/*******************************************************/
+		/*   courses code end  */
+/*******************************************************/
+
+
+/*******************************************************/
+		/*   testimonial code start  */
+/*******************************************************/
+ 
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+}
+.testimonial h2{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 50px;
+	color: #000000;;
+	text-align: center;
+	margin: 0px 0px 60px;
+}
+.testimonial .img-t1{
+	width: 110px;
+	height: 110px;
+	border-radius: 100%;
+}
+.testimonial p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #000000;
+	margin: 15px 0px 0px;
+}
+/*******************************************************/
+		/*   testimonial code end  */
+/*******************************************************/
+
+
+/*******************************************************/
+		/*   footer code start  */
+/*******************************************************/
+
+.footer{
+	width: 100%;
+	padding: 60px 0px 10px;
+}
+.footer .footer-widget{
+  width: 100%;
+  padding: 60px 0px 30px;
+  background: #282531;
+}
+.footer .footer-widget p {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 26px;
+	color: #fff;
+	margin: 0px;
+}
+.footer .footer-widget h6 {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 25px;
+	color: #fff;
+	margin: 0px 0px 0px;
+}
+.footer .footer-widget ul {
+	padding: 0px 0px 30px;
+}
+.footer .footer-widget li {
+	margin: 4px 0px 0px;
+}	
+.footer .footer-widget li a {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 23px;
+	color: #fff;
+}
+.footer .footer-widget .copyright {
+	width: 100%;
+	padding: 30px 0px 0px;
+}
+.footer .footer-widget .copyright p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #CDCDCD;
+	margin: 0px;
+	text-align: center;
+}
+
+/*******************************************************/
+		/*   footer code end  */
+/*******************************************************/
